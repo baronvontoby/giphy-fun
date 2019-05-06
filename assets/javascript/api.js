@@ -68,7 +68,7 @@ $(document).ready(function () {
         console.log("hello!", $(this).attr("title"));
     }
 
-    $(document).on("click", ".movie" );
-    $(document).on("click", ".gif");
+    // $(document).on("click", ".movie" );
+    // $(document).on("click", ".gif");
     
 });
