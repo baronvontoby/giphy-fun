@@ -10,9 +10,27 @@
 
 body {
     background-image: url(../images/Disney_Background.jpg);
+    background-size: auto;
+    background-position: center;
 }
 
 .container {
     background-color: whitesmoke;
-    bottom: 600px;
+}
+
+.row {
+    margin-left: 10px;
+}
+
+.form-group {
+    margin-left: 10px;
+}
+
+#submit {
+    margin-left: 10px;
+}
+
+img {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
