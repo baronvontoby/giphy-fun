@@ -7,3 +7,12 @@
     margin-right: 10px;
     margin-top: 10px;
 }
+
+body {
+    background-image: url(../images/Disney_Background.jpg);
+}
+
+.container {
+    background-color: whitesmoke;
+    bottom: 600px;
+}
