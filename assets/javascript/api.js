@@ -5,7 +5,7 @@ $(document).ready(function () {
     
     $(document).on("click", ".movie", function(){
         var title  = $(this).attr("title");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + title + "&api_key=eSl0jNIgxwpPAairAjjs9x5pCXyGulyO&limit=10"
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + title + "&api_key=eSl0jNIgxwpPAairAjjs9x5pCXyGulyO&limit=10"
         
         $.ajax({
             url: queryURL,
